@@ -1,0 +1,18 @@
+.calendar{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: SequelSans;
+    gap: 5px;
+    
+}
+.calendar .calendarDay{
+    display: flex;
+    font-weight: 600;
+}
+
+.calendar .calendarHour{
+    margin-left: 6px;
+    font-weight: 400;
+}
