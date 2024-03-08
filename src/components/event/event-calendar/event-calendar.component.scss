@@ -16,3 +16,10 @@
     margin-left: 6px;
     font-weight: 400;
 }
+
+@media (min-width: 600px) {
+    .calendar {
+        grid-column: 5;
+    }
+
+}
