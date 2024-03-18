@@ -6,15 +6,17 @@ import { AppComponent } from './app.component';
 import { ListComponent } from 'src/components/list/list.component';
 import { EventComponent } from 'src/components/event/event.component';
 
-import { EventCalendar } from 'src/components/event/event-calendar/event-calendar.component';
-
-
+import { EventCalendarMobile } from 'src/components/event/event-calendar-mobile/event-calendar-mobile.component';
+import { EventCalendarWeb } from 'src/components/event/event-calendar-web/event-calendar-web.component';
+import { EventCalendarSingle } from 'src/components/event/event-calendar-single/event.component';
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
     EventComponent,
-    EventCalendar
+    EventCalendarMobile,
+    EventCalendarWeb,
+    EventCalendarSingle
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 .card{
     width: 320px ;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     background-color: #f5f5f5;
@@ -55,8 +56,20 @@ img{
 
 }
 
+/*event-calendar-web{
+    display: none;
+}*/
+.responsiveCard{
+    display: none;
+}
 
 @media (min-width: 600px) {
+    // event-calendar-mobile{
+    //     display: none;
+    // }
+    // event-calendar-web{
+    //     display: block;
+    // }
     .card {
         width: 420px;
         padding: 30px;

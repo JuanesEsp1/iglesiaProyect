@@ -1,4 +1,4 @@
-.calendar{
+.calendarMobile{
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -7,19 +7,17 @@
     gap: 5px;
     
 }
-.calendar .calendarDay{
+.calendarDay{
     display: flex;
     font-weight: 600;
 }
 
-.calendar .calendarHour{
+.calendarHour{
+    display: flex;
     margin-left: 6px;
     font-weight: 400;
 }
 
-@media (min-width: 600px) {
-    .calendar {
-        grid-column: 5;
-    }
-
+.containerCalendar{
+    display: flex;
 }

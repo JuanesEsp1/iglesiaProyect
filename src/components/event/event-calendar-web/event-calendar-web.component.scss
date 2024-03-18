@@ -1,0 +1,23 @@
+.calendarWeb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: SequelSans;
+    width: 100%;
+    grid-column: auto;
+    font-size: smaller;
+}
+
+.containerCalendar {
+    width: 60px;
+    flex-direction: column;
+
+}
+
+.calendarDay {
+    font-weight: 600;
+}
+
+.calendarHour {
+    font-weight: 400;
+}
